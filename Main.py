@@ -6,7 +6,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 
 
 data = pd.read_csv("Salary_Data.csv")
-
+data = data.dropna()
 print("\nDataset Loaded ........")
 
 X = data[["Experience_Years", "Profession_Code", "Education_Level_Code"]]
