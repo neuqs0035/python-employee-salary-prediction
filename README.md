@@ -40,16 +40,10 @@ This Python-based machine learning code predicts employee salaries based on year
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/bhavya416/python-employee-salary-prediction.git
+    git clone https://github.com/neuqs0035/python-employee-salary-prediction.git
     cd python-employee-salary-prediction
     ```
-
-2. Install the required dependencies:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
+    
 ## Usage
 
 1. Ensure you have the required dataset (`Salary_Data.csv`) in the same directory.
